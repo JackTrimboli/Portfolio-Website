@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Jack Trimboli</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/57ce6101c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <nav class="navbar">
+        <a href="index.html" class="nav-home nav-link">
+            <i class ="nav-icon fas fa-home"></i>
+            <span class="nav-text">Home</span>
+        </a>
+        <button class="hamburger nav-link" id="hamburger">
+            <i class ="nav-icon fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-ul" id="nav-ul">
+            <li class="nav-item ">
+                <a href="projects.html" class="nav-link">
+                    <i class ="nav-icon fas fa-hammer"></i>
+                    <span class="nav-text">Projects</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                    <i class ="nav-icon fas fa-envelope"></i>
+                    <span class="nav-text">Contact Me</span>
+                </a>   
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/JackTrimboli" class="nav-link">
+                    <i class ="nav-icon fa fa-github"></i>
+                    <span class="nav-text">Github</span>
+                </a>    
+            </li>
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/jack-trimboli-587bb3201/" class="nav-link">
+                    <i class ="nav-icon fa fa-linkedin"></i>
+                    <span class="nav-text">LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="contact-main">
+        <h1 class="contact-header">Send me an Email</h1>
+        <form id="email" class = "contact-form" method="POST">
+            <label for="contact-label contact-label-email"><h3>Email</h3></label>
+            <input class= "contact-input contact-input-email" type="text"">
+            <label for="contact-label contact-label-subject"><h3>Subject</h3></label>
+            <input class= "contact-input contact-input-subject" type="text">
+            <label for="contact-label contact-label-message"><h3>Message</h3></label>
+            <textarea class="contact-input contact-input-message" ></textarea>
+        </form>
+        <button class="contact-submit" type="submit" form="email" value="Submit">Send</button>
+        <i class="contact-footer">...Or contact me directly via my <a class="contact-footer-link" href="https://www.linkedin.com/in/jack-trimboli-587bb3201/">LinkedIn.</a> </i>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+</html>
